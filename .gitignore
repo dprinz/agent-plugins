@@ -1,0 +1,23 @@
+node_modules/
+*.log
+
+# AI-assisted coding: lokale Konfiguration und Agenten-Instruktionen
+.claude/
+CLAUDE.md
+AGENTS.md
+.cursor/
+.cursorrules
+.cursorignore
+.windsurf/
+.windsurfrules
+.aider*
+.continue/
+.codeium/
+.kiro/
+.roo/
+.opencode/
+.gemini/
+GEMINI.md
+.github/copilot-instructions.md
+.github/instructions/
+.github/prompts/

@@ -1,0 +1,16 @@
+{
+  "environments": [
+    {
+      "name": "staging",
+      "region": "eu-central-1",
+      "requiresApproval": false,
+      "url": "https://staging.example.internal"
+    },
+    {
+      "name": "production",
+      "region": "eu-central-1",
+      "requiresApproval": true,
+      "url": "https://example.com"
+    }
+  ]
+}

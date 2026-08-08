@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "deploy-buddy",
+  "version": "1.0.0",
+  "description": "A runnable Agent Plugins v1.0.0 demo: two Agent Skills plus a stdio MCP server for a mock deployment platform.",
+  "author": {
+    "name": "Daniel Prinz",
+    "url": "https://systemebene.house-harkonnen.com"
+  },
+  "homepage": "https://systemebene.house-harkonnen.com/artikel/agent-plugins-portables-paketformat",
+  "repository": "https://github.com/dprinz/agent-plugins",
+  "license": "MIT",
+  "keywords": ["agent-plugins", "demo", "skills", "mcp", "deployment"],
+  "extensions": {
+    "com.example.ide": {
+      "statusBarLabel": "Deploy Buddy",
+      "confirmBeforeProductionDeploy": true
+    }
+  }
+}

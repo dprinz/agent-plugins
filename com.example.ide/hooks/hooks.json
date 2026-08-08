@@ -1,0 +1,10 @@
+{
+  "_comment": "Illustrative only. Hooks are NOT a portable Agent Plugins v1 component. A client that wants them must own and document a reverse-domain namespace, and this file lives in the matching top-level directory. Every other client ignores this directory entirely — the skills and mcp.json above stay usable.",
+  "hooks": [
+    {
+      "event": "beforeToolCall",
+      "match": { "tool": "create_deployment" },
+      "run": "./scripts/confirm-production.sh"
+    }
+  ]
+}

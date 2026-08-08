@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "deploy-platform": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${PLUGIN_ROOT}/mcp/deploy-platform/server.mjs"],
+      "env": {
+        "DEPLOY_PLATFORM_CATALOG": "${PLUGIN_ROOT}/mcp/deploy-platform/data/environments.json",
+        "DEPLOY_PLATFORM_STATE": "${PLUGIN_DATA}/deployments.json"
+      }
+    }
+  }
+}
